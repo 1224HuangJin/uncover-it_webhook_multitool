@@ -1666,6 +1666,7 @@ export default function WebhookTool() {
           onClick={() =>
             theme === "light" ? setTheme("dark") : setTheme("light")
           }
+          aria-label="theme-toggle"
         >
           <Sun className="dark:hidden block" />
           <MoonStar className="dark:block hidden" />
